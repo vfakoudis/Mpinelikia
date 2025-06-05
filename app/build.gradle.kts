@@ -7,9 +7,9 @@ android {
     signingConfigs {
         create("vfakoudis") {
             storeFile = file("C:\\Users\\vfakoudis\\vfakoudis.jks")
+            storePassword = "puncake1996"
             keyAlias = "vfakoudis"
-            storePassword = "VFIAmError1!"
-            keyPassword = "VFIAmError1!"
+            keyPassword = "puncake1996"
         }
     }
     namespace = "com.pccosmos.mpinelikia"
